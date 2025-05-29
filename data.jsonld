@@ -1,0 +1,10 @@
+{
+    "@id": "ex:John",
+    "ex:hasAge": {
+        "@value": "30",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "@context": {
+        "ex": "http://example.org/"
+    }
+}

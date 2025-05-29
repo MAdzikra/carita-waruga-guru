@@ -1,0 +1,1540 @@
+@prefix aks: <http://aksarasunda.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+aks:Baris a rdfs:Class .
+aks:Manuskrip a rdfs:Class .
+aks:Terjemahan a rdfs:Class .
+aks:Transliterasi a rdfs:Class .
+
+aks:bagianDari a rdf:Property ;
+    rdfs:domain aks:Baris ;
+    rdfs:range aks:Manuskrip .
+
+aks:memilikiAksaraSunda a rdf:Property ;
+    rdfs:domain aks:Baris ;
+    rdfs:range rdfs:Literal .
+
+aks:memilikiTerjemahan a rdf:Property ;
+    rdfs:domain aks:Baris ;
+    rdfs:range rdfs:Literal .
+
+aks:memilikiTransliterasi a rdf:Property ;
+    rdfs:domain aks:Baris ;
+    rdfs:range rdfs:Literal .
+
+aks:Baris001 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ini adalah cerita tentang Waroega sang guru, yang menjadi pemimpin spiritual." ;
+    aks:memilikiTransliterasi "Ini tjarita Waroega goeroe, eta noe njakrawati." .
+
+aks:Baris002 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Yang menuliskan kisah ini adalah mereka yang terpilih; sebab selain mereka yang bodoh dan yang tidak tahu adat, tidak akan mampu memahami kehormatan untuk mendapatkan seorang guru." ;
+    aks:memilikiTransliterasi "Noe poëk angngĕn toeloes, da koedjaba di noe bodo, noe tarraboeka prajaji sakarĕp kasorang tineung meunang goeroe." .
+
+aks:Baris003 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ratu pusaka di jagat para pemimpin mulia  dialah Ratu Galuh, karena berasal dari alam gaib; keturunannya berasal dari Nabi Adam yang pertama." ;
+    aks:memilikiTransliterasi "Ratoe poessaka di djagat paramodita, eta, kanjahokeun ratoe Galoeh, kĕrna bidjil ti alam gaib; nja nabi Adam ti heula." .
+
+aks:Baris004 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ratu Galuh ditempatkan sebagai pewaris dari alam dunia." ;
+    aks:memilikiTransliterasi "Ratoe Galoeh diĕngg(o)nkeun sasaka alam doenja." .
+
+aks:Baris005 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Bahasanya turun dari langit yang paling tinggi. Turun ke langit Jambaluha, lalu ke langit Mutijara, lalu ke langit Purasani, kemudian ke langit Inten, lanjut ke langit Kencana, ke langit Putih, ke langit Hitam, sampai ke langit dunia Jakalangan, dan akhirnya menetap di Gunung Jakalkap." ;
+    aks:memilikiTransliterasi "Basana toeroen ti langngit masoehoer, toeroen ka langngit djambaloehan, toeroen ka langngit moetijara, toeroen ka langngit poerasani, toeroen ka langngit intĕn, toeroen ka langngit ka(nj)tjana, toeroen ka langngit poetih, toeroen ka langngit irĕng, toeroen ka langngit doenja Djakalangngan, tata lawas toeroen ka goenoeng Djakalkap." .
+
+aks:Baris006 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Jika: Ratu Galuh ditempatkan sebagai pewaris dunia, maka Nabi Adam yang pertama diturunkan di Gunung Mesir." ;
+    aks:memilikiTransliterasi "Oepami: ratoe Galoeh diĕnggonkeun sasaka alam doenja, nabi Adam ti heula, piuarĕkking goenoeng Mĕsir." .
+
+aks:Baris007 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Adam memiliki keturunan sebanyak empat puluh, dua di antaranya adalah leluhur agung dari raja dan dewi." ;
+    aks:memilikiTransliterasi "Adam diseuweu opat poeloeh, dwa noe sakĕmbarran, moenidjah loeloehoer hadji dĕwi; tjikal, da hadji, dingarankeun nabi Isis; loeloehoer manoesa." .
+
+aks:Baris008 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Nabi Isa berputra Kalijanggin." ;
+    aks:memilikiTransliterasi "Nabi Isis diseuweu Kalijanggin." .
+
+aks:Baris009 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kalijanggin berputra Malit." ;
+    aks:memilikiTransliterasi "Kalijanggin diseuweu Malit." .
+
+aks:Baris010 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Malit berputra Malam." ;
+    aks:memilikiTransliterasi "Malit diseuweu Malam." .
+
+aks:Baris011 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Malam berputra Mahur." ;
+    aks:memilikiTransliterasi "Malam diseuweu Mahoer." .
+
+aks:Baris012 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mahur berputra Lamak." ;
+    aks:memilikiTransliterasi "Ma(h)oer diseuweu Lamak." .
+
+aks:Baris013 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lamak berputra Nasar." ;
+    aks:memilikiTransliterasi "Lamak diseuweu Nasar." .
+
+aks:Baris014 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Nasar berputra Basar." ;
+    aks:memilikiTransliterasi "Nasar diseuweu Basar." .
+
+aks:Baris015 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Basar berputra Nabi Nuh." ;
+    aks:memilikiTransliterasi "Basar diseuweu nabi Ĕnoh." .
+
+aks:Baris016 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Nabi Nuh mempunyai anak perempuan, putri Betari Sanglinglang." ;
+    aks:memilikiTransliterasi "Nabi Ĕnoh diseuweu istri, poetri Bĕtari Sanglinglang." .
+
+aks:Baris017 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Betari Sanglinglang berputra Muladasadi." ;
+    aks:memilikiTransliterasi "Bĕtari Sanglinglang diseuweu Moeladasadi." .
+
+aks:Baris018 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Muladasadi berputra Ratu Babar Buana, kemudian menikah dengan Betari Logina." ;
+    aks:memilikiTransliterasi "Moeladasadi diseuweu ratoe Babar bwana, arina krama ka Bĕtari Logina." .
+
+aks:Baris019 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Betari Logina berputra Ratu Gindul Gantung." ;
+    aks:memilikiTransliterasi "Bĕtari Logina diseuweu ratoe Gandoel gantoeng." .
+
+aks:Baris020 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mengapa dinamakan Ratu Gindul Gantung? Karena bertapa di awang-awang." ;
+    aks:memilikiTransliterasi "Naha mana dingarankeun ratoe Gandoel gantoeng? Kĕrna tapa di awang-awang." .
+
+aks:Baris021 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian menikah dengan Betari Cipta Lenggang, berputra Ratu Meneng Putih." ;
+    aks:memilikiTransliterasi "Arina krama ka Bĕtari Tjipta lenggang, diseuweu nja ratoe Mĕnĕng poetih." .
+
+aks:Baris022 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mengapa dinamakan Ratu Meneng Putih? Karena bertapa dalam asap (yang) keluar (berwarna) putih." ;
+    aks:memilikiTransliterasi "Nala mana dingarankeun ratoe Mĕnĕng poetih? Kĕrna tapa dina haseup bidjil poetih." .
+
+aks:Baris023 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian menikah dengan Betari Cipta Wisesa, lalu berputra Ratu Gindul Larang." ;
+    aks:memilikiTransliterasi "Arina krama ka Bĕtari Tjipta wisesa, arina diseuweu ratoe Gandoel larang." .
+
+aks:Baris024 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mengapa dinamakan Ratu Gindul Larang? Karena bertapa pada bintang." ;
+    aks:memilikiTransliterasi "Naha mana dingarankeun ratoe Ga(n)doel larang? Kĕrna tapa dina bentang." .
+
+aks:Baris025 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian menikah dengan Betari Meku Bayu." ;
+    aks:memilikiTransliterasi "Arina krama ka Bĕtari Mĕkoe bajoe." .
+
+aks:Baris026 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Betari Meku Bayu kemudian berputra Ratu Okang Larang." ;
+    aks:memilikiTransliterasi "Bĕtari Mĕkoe bajoe arina diseuweu ratoe Okang larang." .
+
+aks:Baris027 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mengapa dinamakan Ratu Okang Larang? Karena bertapa pada bulan." ;
+    aks:memilikiTransliterasi "Naha mana dingarankeun ratoe Okang larang? Kĕrna tapa dina boelan." .
+
+aks:Baris028 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian menikah dengan Betari Meku Hurip; Betari Meku Hurip, kemudian berputra Ratu Siar." ;
+    aks:memilikiTransliterasi "Arina krama ka Bĕtari Mĕkoe hoerip; Bĕtari Mĕkoe hoerip, arina diseuweu ratoe Siar." .
+
+aks:Baris029 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mengapa dinamakan Ratu Siar? Karena bertapa di dalam air." ;
+    aks:memilikiTransliterasi "Naha mana dingarankeun ratoe Siar? Kĕrna tapa di djĕro banjoe." .
+
+aks:Baris030 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian menikah dengan Betari Medang Rasa, lalu berputra Ratu Komara." ;
+    aks:memilikiTransliterasi "Arina krama ka Bĕtari Mĕdang rasa, arina diseuweu ratoe Komara." .
+
+aks:Baris031 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ratu Komara kemudian menikah dengan Betari Lenggis Jati." ;
+    aks:memilikiTransliterasi "Ratoe Komara arina krama ka Bĕtari Lĕnggis djati." .
+
+aks:Baris032 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Betari Lenggis Jati kemudian berputra Ratu Pucuk Putih." ;
+    aks:memilikiTransliterasi "Bĕtari Lenggis djati arina diseuweu ratoe Poetjoek poetih." .
+
+aks:Baris033 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mengapa dinamakan Ratu Pucuk Putih? Karena bertapa di dalam langit putih yang lebih (tinggi/utama)." ;
+    aks:memilikiTransliterasi "Naha mana dingarankeun ratoe Poetjoek poetih? Kĕrna tapa di djĕro langngit poetih noe leuwih." .
+
+aks:Baris034 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian menikah dengan Betari Panggung Kencana, lalu berputra Baginda Premana." ;
+    aks:memilikiTransliterasi "Arina krama ka Bĕtari Panggoe(ng) ka(nj)tjana, arina diseuweu Bagi(n)da prĕmana." .
+
+aks:Baris035 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian menikah dengan Maharaja Leng Jagat, lalu memiliki putra yang menjadi raja (bernama) Raja Putra Puter Jagat." ;
+    aks:memilikiTransliterasi "Arina krama ka Maradja Leng djagat, arina diboga seuweu djoemĕnĕng ratoe Radja poetra poetĕr djagat." .
+
+aks:Baris036 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ditimpa/dijatuhi air mata/air kehidupan (eluh)." ;
+    aks:memilikiTransliterasi "Ditibanan tji banjoe ĕloeh." .
+
+aks:Baris037 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Diraga-ragakan (dibuat wujud/tubuh) dengan air mata." ;
+    aks:memilikiTransliterasi "Diraga-raga tji banjoe ĕloeh." .
+
+aks:Baris038 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Diceritakan Waruga Guru menjadi penguasa dunia, keturunan cahaya kehidupan, turun ke Gunung Rayana, menjadi Ratu Rayana." ;
+    aks:memilikiTransliterasi "Koetjarita Waroega goeroe mana djoemĕnĕng njakrawati, katoeroenan tjaja ĕloeh, toeroen ka goenoeng Rajanna, djoemeneng ratoe Rajanna." .
+
+aks:Baris039 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka diceritakan lagi Nabi Adam." ;
+    aks:memilikiTransliterasi "Mangka tjaritakeun deui nabi Adam." .
+
+aks:Baris040 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Diperlihatkan (disadarkan) sekilas: Perjalanannya (perilakunya), saat kebingungan, menundukkan matahari, hukumnya setiap yang bergerak dihalalkan (diizinkan), alamnya (berlangsung) lima ribu tahun, tinggi kayu empat belas ratus (depa/ukuran)." ;
+    aks:memilikiTransliterasi "Diogan sarejat: la(m)pahna, eukeurna bingngoeng, mitĕtĕken srangenge, hoekoenma sakoer noe oesik dihalalkeun, alamna lima riwoe tahoen, tjĕngkal kajoe ka patbĕlas ratoes." .
+
+aks:Baris041 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Digantikan lagi oleh Nabi Nuh, alamnya delapan ratus tahun, ukuran kayu sembilan ratus jengkal panjangnya, hukumnya segala yang mati olehmu diharamkan, beserta segala isinya." ;
+    aks:memilikiTransliterasi "Kasalinan deui koe nabi Ĕnoh, alamna dalapan ratoes tahoen, tjĕngkal kajoe salapan ratoes tjĕ(ng)kal pa(n)djangna, hoekoemna sakoer noe paeh koe maneh diharamkeun, balana saeusina." .
+
+aks:Baris042 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Digantikan lagi oleh Nabi Isa, memiliki kitab tanpa sebab/asal-usul." ;
+    aks:memilikiTransliterasi "Kasalihan deui koe nabi Isis, diboga kitab tanpa karana." .
+
+aks:Baris043 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Diceritakan juga Ratu Raja Putra Puter Jagat." ;
+    aks:memilikiTransliterasi "Tjaratakeun deui ratoe Radja poetra poetĕr djagat." .
+
+aks:Baris044 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Nabi Nuh memperhatikan/melihat negara Selong dengan delapan pedagang." ;
+    aks:memilikiTransliterasi "Nabi Ĕnoh mireungngeuhkeun nagara Selong padagang dalapan." .
+
+aks:Baris045 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka menurutlah Baginda Premana beserta seluruh tentaranya/rakyatnya." ;
+    aks:memilikiTransliterasi "Mangka noeroet Baginda prĕmana sabalana kabeh." .
+
+aks:Baris046 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ratu raja putra puter jagat yang tidak ikut karena sakit, harus makan bangkai." ;
+    aks:memilikiTransliterasi "Ratoe Radja poetra poetĕr [djagat] noe ranoehhan hanteu miloe, koedoe-koedoe karsa dahar babatang." .
+
+aks:Baris047 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka disampaikan kepada ayahnya." ;
+    aks:memilikiTransliterasi "Mangka kahatoer ka ramana." .
+
+aks:Baris048 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka marahlah ayahnya: itu juga akan dimusnahkan." ;
+    aks:memilikiTransliterasi "Mangka bĕ(n)doe ramana: eta oge rek dipoepoesan." .
+
+aks:Baris049 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka ditangkap oleh Alam Daur." ;
+    aks:memilikiTransliterasi "Mangka ditjĕkĕl koe Alam daoer." .
+
+aks:Baris050 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka terlihatlah (diketahuilah) oleh Nyai Aisna, oleh Ratu Dewi Astra. Maka dikorbankanlah seribu orang." ;
+    aks:memilikiTransliterasi "Mangka kabireungeuh koe njai aisna, koe ratoe Dĕwi asta, mangka dibelakeun djalma sewoe." .
+
+aks:Baris051 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Selanjutnya ke kahyangan." ;
+    aks:memilikiTransliterasi "Toeloejna ka kahijangan." .
+
+aks:Baris052 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lama bertapanya di kemuliaan, turun membuka pemukiman Medang Kamulan ?, yang punya negeri dinamakan Ratu Rawana." ;
+    aks:memilikiTransliterasi "Lawas tapana di kamoelijaān, toeroen ngababakan Medang kamoelan sangngara, noe boga dajeuh dingaranan ratoe Rawana." .
+
+aks:Baris053 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka diperangi oleh Alam Daulat, terdesak ke selatan ke Pulau Panamor." ;
+    aks:memilikiTransliterasi "Mangka diprangngan koe Alam daoer, kasĕdĕk ngidoel ka poelo Panamoer." .
+
+aks:Baris054 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka saling lempar dengan ? batu seribu, jatuhnya ke negeri, maka dinamakan Gunung Sewu." ;
+    aks:memilikiTransliterasi "Mangka silih balang koe goegoetoek batoe sewoe, toeroenna ka dajeuh, manah dingarankeun Goenoeng sewoe." .
+
+aks:Baris055 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka saling lempar dengan siwalan, jatuhnya ke negeri dinamakan Bagelen." ;
+    aks:memilikiTransliterasi "Mangka silih balang koe siwalan, toeroenna ka dajeuh dingarankeun Bagĕlen." .
+
+aks:Baris056 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ceritakan lagi putra Ratu Mesir dan putri cantik Raminihalul, yang muncul pada bulannya bulan Anggara Kasih (Selasa Kliwon)." ;
+    aks:memilikiTransliterasi "Tjaritakeun deui poetrana ratoe Mĕsir na poetri geulis Raminihaloel, noe djoeng dina boelanna boelan anggara kasih." .
+
+aks:Baris057 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Naiknya ke panggung (tempat tinggi) melihat penanggalan." ;
+    aks:memilikiTransliterasi "Oenggahna ka papangngoengan nengtjengna patanggalan." .
+
+aks:Baris058 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Akan dilihat ke barat, tertutup; akan dilihat ke utara, tertutup; akan dilihat ke timur, tertutup; akan dilihat ke arah selatan, tampaklah seorang pria." ;
+    aks:memilikiTransliterasi "Rek dibireungeuh ngoelon, pĕpĕt: rek dibireungeuh ngaler, pĕpĕt: [rek] dibireungeuh ngetan, pĕpĕt; rek dibireungeuh ka tĕbeh kidoel, behna pamĕgĕt." .
+
+aks:Baris059 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "itulah dia.\"" ;
+    aks:memilikiTransliterasi "\"Rampes, ta inja\".\"" .
+
+aks:Baris060 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu berkata kepada ayahnya: \"Ayah, hamba hendak menikah dengan Ratu Raja Putra Puter Jagat.\"" ;
+    aks:memilikiTransliterasi "Toeloej hatoer ka ramana: \"rama, kawoela hatoer dek krama ka ratoe Radja poetra poetĕr djagat\"." .
+
+aks:Baris061 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata ayahnya: \"Syukurlah, anakku, engkau hendak menikah dengan pengasuh/pembimbing yang dibawa bertapa.\"" ;
+    aks:memilikiTransliterasi "Saoer ramana: \"soekoer tĕmĕn, anaking, hidap re(k) krama na ais bawa satapa\"." .
+
+aks:Baris062 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dibawa oleh Darma Siksa." ;
+    aks:memilikiTransliterasi "Toeloej dibawa koe Darma siksa." .
+
+aks:Baris063 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu berangkat dengan kakek pengasuh yang dijadikan/bernama Amat Musafir." ;
+    aks:memilikiTransliterasi "Toeloej angkat deu(ng)na kai ais didjĕnĕngkeun Amad moesapir." .
+
+aks:Baris064 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu ke negara Medang Kamulan: termakanlah padi/ Dewi Sri." ;
+    aks:memilikiTransliterasi "Toeloej ka nagara Mĕdang kamoelan: kadaharranan sri." .
+
+aks:Baris065 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka ada padi/Dewi Sri di Pulau Jawa." ;
+    aks:memilikiTransliterasi "Mana aja sri di noesa Djawa." .
+
+aks:Baris066 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu menikah, kakak dengan kakak, adik dengan adik." ;
+    aks:memilikiTransliterasi "Toeloej krama raka kapada raka, rai kapada rai." .
+
+aks:Baris067 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu penuhlah Medang Kamulan, diisi oleh dua ribu (orang)." ;
+    aks:memilikiTransliterasi "Toeloej pinoeh Mĕdang kamoelan, dieusi koe doewa riwoe." .
+
+aks:Baris068 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka berkehendak memindahkan negeri ke Gunung Kidul." ;
+    aks:memilikiTransliterasi "Mangka karsa mi(n)dah dajeuh ka Goenoeng kidoel." .
+
+aks:Baris069 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka diwarisi pengikutnya oleh Darma Siksa, yang dari Mesir semua pengikutnya kepada tuannya." ;
+    aks:memilikiTransliterasi "Mangka diwaris koeringna koe Darma siksa, noe te Mĕsir sakoeringna ka goesti(na)." .
+
+aks:Baris070 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Ratu: \"Suaminya itu juga tidak diberi waris, ada waris purba (yaitu) kekuatan perempuan-perempuannya.\"" ;
+    aks:memilikiTransliterasi "Saoer ratoe: \"lalakina eta oge teu dibwaga waris, aja waris poerba mana koewat ewe-ewena.\"" .
+
+aks:Baris071 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka lalu menjadi dua negara, (milik) sang kakak dan sang adik." ;
+    aks:memilikiTransliterasi "Mangka toeloej djadi nagara doewa kang raka deungngeun kang rai." .
+
+aks:Baris072 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Maka ceritakan lagi Nabi Enoh (Nuh).\"" ;
+    aks:memilikiTransliterasi "\"Mangka tjaritakeun deui nabi Ĕnoh.\"" .
+
+aks:Baris073 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Nabi Adam: \"Nabi Enoh, belum makan padi/Dewi Sri: banyak berjudi/bertengkar, harus suka kepada laki-laki, berkehendak makan bangkai.\"" ;
+    aks:memilikiTransliterasi "Saoerna nabi Adam: \"nabi Ĕnoh, teujatjan dahar sri: reja doeradoe, koedoe bogoh kapada lalaki, karsa dahar babatang\"." .
+
+aks:Baris074 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata (Nabi Enoh): \"Nabi Adam, semoga terkena murka Allah.\"" ;
+    aks:memilikiTransliterasi "Saoerna: \"na(bi) Adam, moegi-moegija keuna bĕbĕ(n)don d(e)neng Al(l)ah\"." .
+
+aks:Baris075 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka Nabi Adam membuat perahu." ;
+    aks:memilikiTransliterasi "Mangka nabi Adam njieun parahoe." .
+
+aks:Baris076 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka pastilah, dibawa naik ke perahu Nabi Adam (dan) Nabi Enoh." ;
+    aks:memilikiTransliterasi "Mangkana pastoe, dibawa oe(ng)gah ka parahhoe nabi Adam nabi Ĕnoh." .
+
+aks:Baris077 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Dibawa naik ke perahu, maka keluarlah angin topan seketika dari laut, maka terendamlah alam dunia." ;
+    aks:memilikiTransliterasi "Dibawa oe(ng)gah ka parahoe, mangka bidjil angin to(m)pan sapotjorro ti sagara, mangka keuëum alam doenja." .
+
+aks:Baris078 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Orang Pulau Jawa ramai sedang membuat gunung." ;
+    aks:memilikiTransliterasi "Oerang noesa Djawa rame eukeur njieun goenoeng." .
+
+aks:Baris079 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Ratu Prewata Sari Jagat: \"Akan terendam!\"" ;
+    aks:memilikiTransliterasi "Saoer ratoe Prĕwata sari djagat: \"pikakeuëummeun\"." .
+
+aks:Baris080 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka menciptakan gunung setinggi langit, dinamakan gunung Adrakasa." ;
+    aks:memilikiTransliterasi "Mangka njipta goenoeng sasipat langngit, dingarankeun goenoeng Adrakasa." .
+
+aks:Baris081 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka orang Pulau Jawa dibawa naik gunung oleh Ratu Prewata Sari Jagat." ;
+    aks:memilikiTransliterasi "Mangka oerang noesa Djawa dibawa oe(ng)gah goenoeng koe ratoe Prĕwata sari djagat." .
+
+aks:Baris082 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka orang Pulau Jawa dibawa naik gunung, ke puncak suci Lingga Payu." ;
+    aks:memilikiTransliterasi "Mangka oerang noesa Djawa dibawa oenggah goenoeng, ka sanghijang poentjak Lingga pajoe." .
+
+aks:Baris083 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka lama-kelamaan surutlah (air itu) lagi." ;
+    aks:memilikiTransliterasi "Mangka lawas-lawas orat, deui." .
+
+aks:Baris084 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Tempat yang tadinya tanjung (?) jarang-jarang bagaikan bunga lopang (teratai?), maka dinamakan Bojong Lopang." ;
+    aks:memilikiTransliterasi "Mana noe saät ti heula bodjong rentjang tjarangtjang betan kĕmbang lopang, mana dingarankeun Bodjong lopang." .
+
+aks:Baris085 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dituruni (untuk) membuka pemukiman oleh Darma Siksa." ;
+    aks:memilikiTransliterasi "Toeloej ditoeroennan dibabakan koe Darma siksa." .
+
+aks:Baris086 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Turunnya ke negeri tempat ada (?) Imba Nagara, dijadikan/dinamakan Ki Ditapi Panaekan (tempat naik?) karena ratu hilang di gunung." ;
+    aks:memilikiTransliterasi "Toeroenna ka dajeuh mana aja [Im]ba nagara, didjĕnĕngkeun Ki ditapi panaekkan masihna ratoe leungit di goenoeng." .
+
+aks:Baris087 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka duduk (di atas) ? emas terapung-apung, diikat dengan rotan ke ?, dicantolkan ke gunung, dinamakan Nusa Kambangan." ;
+    aks:memilikiTransliterasi "Mangka loenggah palo kantjtjana koemambang-kambang, ditalian koe hoë ka rokro, ditjangtjangkeun ka goenoeng, dingarankeun Noesa ka(m)bangan." .
+
+aks:Baris088 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka mendapat wahyu." ;
+    aks:memilikiTransliterasi "Mangka katoeroennan wahijoe." .
+
+aks:Baris089 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Yang Maha Kuasa: \"Segeralah bertapa di tempat terbenam matahari, di sana akan dijadikan ratu.\"" ;
+    aks:memilikiTransliterasi "Saoer noe Wĕnang: \"geura tapa di sompokking panon poë, dinja pidjadieun ratoe\"." .
+
+aks:Baris090 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mendapat sabda sepatah kata, lalu berangkat lagi." ;
+    aks:memilikiTransliterasi "Meunang saoer sakĕtjap, toeloej angkat deui." .
+
+aks:Baris091 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "di mana ada surgaloka.\"\"\"" ;
+    aks:memilikiTransliterasi "Saoer noe Wĕnang: \"djadjaga ka loka goemilang na tapa manana aja sawarga loka.\"" .
+
+aks:Baris092 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka menembus bumi ke bawah ke ?." ;
+    aks:memilikiTransliterasi "Mangka neroes boemi ka ha(n)dap ka saragina." .
+
+aks:Baris093 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian membuka alamnya, maka ada Buana Larang (Alam Terlarang)." ;
+    aks:memilikiTransliterasi "Arina dibabar bawana, mana aja Bwana larang." .
+
+aks:Baris094 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu bertapa di sana." ;
+    aks:memilikiTransliterasi "Toeloej tapa dinja." .
+
+aks:Baris095 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mendapat sabda sepatah kata, maka berangkat lagi ke atas." ;
+    aks:memilikiTransliterasi "Meunang saoer sakĕtjap, mangka a(ng)kat deui ka loehoer." .
+
+aks:Baris096 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Keluar dari gunung, muncul dari semak belukar, dari ? jalannya, maka dinamakan Gunung Galunggung." ;
+    aks:memilikiTransliterasi "Bidjil ti goenoeng, babar ti gasak, ti ngabaloengboeng djala(n)na, mana dingarankeun goenoeng Galoenggoeng." .
+
+aks:Baris097 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka kemudian dihadang/ditutup jalannya: maka dinamakan Pameungpeuk." ;
+    aks:memilikiTransliterasi "Mangka arina dipeungpeukan: mana dingaranan Pameu(ng)peuk." .
+
+aks:Baris098 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu bertapa di Gunung Buligir Putih, membuka alamnya: maka ada Buana Lamba (Alam?)." ;
+    aks:memilikiTransliterasi "Toeloej tapa di goenoeng Boeligir poetih, dibabar bawana: mana aja Bwana lamba." .
+
+aks:Baris099 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Turun ke Gunung Dapang, menyala-nyala penglihatannya di jagat kebahagiaan, disembah oleh seluruh jagat, seluruh (isi) bumi dan langit." ;
+    aks:memilikiTransliterasi "Toeroen ka goenoeng Dapang, moeroeb-moetjar pakatonan di djagat paramodita, disoejoedan koe sadjagat kabeh, saloemahhing boemi sakoerĕbbing langngit." .
+
+aks:Baris100 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka terlihat oleh Darma Siksa." ;
+    aks:memilikiTransliterasi "Mangka bireungngeuh koe Darma siksa." .
+
+aks:Baris101 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu didatangi oleh Darma Siksa, menjadi dua puluh aksara/ajaran." ;
+    aks:memilikiTransliterasi "Toeloej diparanan koe Darma siksa, djadi sastra doewa poeloeh." .
+
+aks:Baris102 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu diberikan ke dalam negeri." ;
+    aks:memilikiTransliterasi "Toeloej dibikeun ka daleum dajeuh." .
+
+aks:Baris103 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Disampaikan lagi kepada seluruh putranya." ;
+    aks:memilikiTransliterasi "Dihatoerkeun deui ka poetrana kabeh." .
+
+aks:Baris104 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka terdengar beritanya ke seberang, kepada Nabi Nuh." ;
+    aks:memilikiTransliterasi "Mangka kabedjakeun ka sabrang, ka nabi Ĕnoh." .
+
+aks:Baris105 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Nabi Nuh: \"Alam dunia terendam, alam dunia semua mati, alam dunia Pulau Jawa utuh.\"" ;
+    aks:memilikiTransliterasi "Saoer nabi Ĕnoh: \"alam doenja kakeuëum, alam doenja pada paraeh, alam doenja noesa Djawa weuteuh\"." .
+
+aks:Baris106 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Nabi Nuh menyuruh Syekh Majusi." ;
+    aks:memilikiTransliterasi "Nabi Ĕnoh miwarangan seh Madjoesi." .
+
+aks:Baris107 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Nabi Nuh: \"Watak itu, Syekh, lembah kejatuhan air kehidupan, maka menjadi Ratu Galuh.\"" ;
+    aks:memilikiTransliterasi "Saoer nabi Ĕnoh: \"watĕk eta, seh, lĕbak karagragan tji banjoe ĕloeh, mana djoemĕnĕng Ratoe Galoeh\"." .
+
+aks:Baris108 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka Syekh Majusi bermukim di Masjid Batu." ;
+    aks:memilikiTransliterasi "Mangka seh Madjoesi doedoekoeh di Masigit watoe." .
+
+aks:Baris109 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka Sang Ratu mengangkat empat patih yang mengatur semuanya." ;
+    aks:memilikiTransliterasi "Mangka sangratoe ngadjĕnĕngkeun papatih opat noe natakeun sakabeh." .
+
+aks:Baris110 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Diangkat Alam Daulat yang mengatur semua orang; diangkat Dewa Guru yang mengatur di dalam negeri, Darma Siksa yang mengatur di keraton, Empu Ganjali... (terputus)." ;
+    aks:memilikiTransliterasi "Didjĕnĕngkeun Alam Daoer noe natakeun djalma kabeh; didjĕnĕngkeun Dewa goeroe noe natakeun di djĕro dajeuh, Darma siksa noe natakeun di karaton, Ĕmpoe Gandjali . . . . . (hiaat)." .
+
+aks:Baris111 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka orang Pulau Jawa semua bersujud ke gunung sampai dijadikan tempat pemujaan." ;
+    aks:memilikiTransliterasi "Mangka oerang noesa Djawa pada soe(djoe]d ka goenoeng anteg didjieun pamoedjaän." .
+
+aks:Baris112 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka terlihat oleh malaikat bahwa rusak semua umatnya, alamnya bersujud pada kayu dan batu, maka dipanahlah dengan bebatuan." ;
+    aks:memilikiTransliterasi "Mangka katingallan koe malekat jen roeksak oematna kabeh alamna soe(d)joed ka kajoe ka batoe, mangka dipanah koe (goegoe)toek batoe." .
+
+aks:Baris113 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu hancur berantakan, reruntuhan itu, maka muncul tempat keramat." ;
+    aks:memilikiTransliterasi "Toeloej rĕmpoe paboera(n)tak, (toe)roenna: mana aja kaboejoetan." .
+
+aks:Baris114 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka bersujud ke Baitullah." ;
+    aks:memilikiTransliterasi "Ma(ng)ka soe(d)joed ka batoellah." .
+
+aks:Baris115 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Diceritakan lagi ada yang bertapa di Gunung Padang, yang sakti, dinamakan Ajar Suka Resi." ;
+    aks:memilikiTransliterasi "Oerang tjaritakeun deui aja noe tapa di (goenoeng) Padang, jen kawasa, dingarannan Adjar soeka (rĕsi)." .
+
+aks:Baris116 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka berkata kepada Sang Ratu bahwa ia sakti." ;
+    aks:memilikiTransliterasi "Mangka hatoer ka sangratoe jen kawasa." .
+
+aks:Baris117 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Sang Ratu: \"Ah, aku akan menantang yang bertapa.\"" ;
+    aks:memilikiTransliterasi "Saoerna sangratoe: \"ah, aing neja(ng) ka noe tapa.\"" .
+
+aks:Baris118 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka istrinya ditampar mukanya dengan kancah." ;
+    aks:memilikiTransliterasi "Mangka greu(ha)na ditapokan mohana koe kanjtjah." .
+
+aks:Baris119 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata (Sang Ratu): \"Patih, sampaikan kepada yang bertapa, Sang Ratu bengkak mukanya karena apa?\"" ;
+    aks:memilikiTransliterasi "Saoer (sangratoe): \"patih, hatoerkeun ka noe tapa, sangratoe ba(reuh) mwahana koe naha?\"" .
+
+aks:Baris120 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata yang bertapa: \"Itu karena sedang hamil Sang Ratu.\"" ;
+    aks:memilikiTransliterasi "Saoer noe tapa: \"eta oge eu(keur) (bo)bot sangratoe.\"" .
+
+aks:Baris121 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ki Patih lalu pulang menghadap Sang Ratu." ;
+    aks:memilikiTransliterasi "Kai patih toeloej poe(lang hatoer) ka sangratoe." .
+
+aks:Baris122 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Bagaimana kata yang bertapa, Patih?" ;
+    aks:memilikiTransliterasi "Koemaha, patih, saoer noe tapa?\"" .
+
+aks:Baris123 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Mohon (ampun), Sang Ratu, kata yang bertapa, Sang Ratu hamil.\"" ;
+    aks:memilikiTransliterasi "Noe(hoen), sang(ratoe), saoer noe tapa, sangratoe bobot.\"" .
+
+aks:Baris124 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata (Sang Ratu): \"Bohong yang bertapa itu. Katanya sakti.\"" ;
+    aks:memilikiTransliterasi "Sa(oer sangratoe): \"bohong noe tapa. pagah kawasa.\"" .
+
+aks:Baris125 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian dicari keberadaanya tidak ada, Sang Ratu mulai hamil." ;
+    aks:memilikiTransliterasi "Arina ditejang (kantjah) (tenjaja), sangratoe nga(n)dĕg." .
+
+aks:Baris126 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Tiba bulannya melahirkan." ;
+    aks:memilikiTransliterasi "Datang ku boelan(n)a babar." .
+
+aks:Baris127 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Dinamakan Hariang Bangga." ;
+    aks:memilikiTransliterasi "Dingarankeun Hariang bangga." .
+
+aks:Baris128 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lama-kelamaan Sang Ratu mengumumkan ke seluruh negeri bahwa Sang Ratu sedang memiliki anak." ;
+    aks:memilikiTransliterasi "Lawas-lawas sangratoe oewar ka sanagara jen sangratoe eukeur diboga seuweu." .
+
+aks:Baris129 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Sang Ratu: \"Patih, menghadap lagi ke yang bertapa, (katakan) Patih sedang memiliki anak lagi.\"" ;
+    aks:memilikiTransliterasi "Saoer sangratoe: \"patih, hatoer deui ka noe tapa, patih eukeur diboga (deu)i (seu)weu\"." .
+
+aks:Baris130 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Baik,\" kata Ki Patih." ;
+    aks:memilikiTransliterasi "\"Rampes\", tjarekna kai patih." .
+
+aks:Baris131 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ketika datang ke tempat pertapa, lalu menghadap Ki Patih berkata: \"Hamba mohon, diperintah oleh Sang Ratu.\"" ;
+    aks:memilikiTransliterasi "A[ri datang] ka noe tapa, toeloej hatoer tjarekna kai patih: \"\"(kaoe)la (noe)hoen, dipawarang koe sangratoe\"\".\"" .
+
+aks:Baris132 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata yang bertapa: \"Diperintah apa, Ki Patih?\"" ;
+    aks:memilikiTransliterasi "Saoer noe tapa: \"dipi(warang naha ka)i patih?\"" .
+
+aks:Baris133 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"(Sampaikan bahwa) Sang Ratu hamil, apakah perempuan atau laki-laki calon anaknya?\"" ;
+    aks:memilikiTransliterasi "Mangka sangratoe bobot, naha ewe-ewe ta lalaki piseuweuëunana?\"\"\"" .
+
+aks:Baris134 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata yang bertapa: \"Banyak lagi urusan Sang Ratu kepada yang bertapa\"" ;
+    aks:memilikiTransliterasi "Saoer noe tapa: \"reja deui sangratoe ka noe tapa”.\"" .
+
+aks:Baris135 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Ki Patih, sampaikan kepada Sang Ratu, kata yang bertapa calon anaknya perempuan.\"" ;
+    aks:memilikiTransliterasi "\"Kai patih, hatoerkeun ka sangratoe, saoer noe tapa piseuweuëunnana ewe-ewe\"." .
+
+aks:Baris136 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Sang Ratu: \"Bohong yang bertapa, itu juga sudah terbukti.\"" ;
+    aks:memilikiTransliterasi "Saoer sangratoe: \"bohong noe tapa, eta oge kateh\"." .
+
+aks:Baris137 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian diuji, terbukti tidak ada." ;
+    aks:memilikiTransliterasi "Arina ditejang, kateh tenjaja." .
+
+aks:Baris138 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Sang Ratu lalu (benar-benar) hamil." ;
+    aks:memilikiTransliterasi "Sangratoe toeloej nga(n)dĕg." .
+
+aks:Baris139 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lama-kelamaan, tiba bulannya, lalu Sang Ratu melahirkan." ;
+    aks:memilikiTransliterasi "Ari lawas-lawas, datang ka boelan(n)a, toeloej babar sangratoe." .
+
+aks:Baris140 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian terlihat perempuan anak Sang Ratu." ;
+    aks:memilikiTransliterasi "Arina dibireungngeuh istri seuweu sangratoe." .
+
+aks:Baris141 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ceritakan lagi banyaknya para putra." ;
+    aks:memilikiTransliterasi "Tjaritakeun deui rejana parapoetra." .
+
+aks:Baris142 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ratu Maharaja Lenggang putranya Ratu Ayub yang berkuasa di Nusa Kambangan." ;
+    aks:memilikiTransliterasi "Ratoe Maradja lenggang seuweuna ratoe Ajoeb noe tjali(k) di (noe)sa Kambangngan." .
+
+aks:Baris143 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian keturunan dari Hariang Bangga turunan Ajar, pulang jiwanya yang merasa di Sumedang Kidul, kembalinya ke Majapahit." ;
+    aks:memilikiTransliterasi "Arina patoettan nja Harijang bangga toeroennan Adjar, poelang djiwa noe ngasa di Soemade kidoel, balikna ka Madjapait." .
+
+aks:Baris144 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Keturunan dari Ratu Prawata, itu putranya Prabu Gunung, Sang Raja Panji." ;
+    aks:memilikiTransliterasi "Patoetan ti ratoe Prawata, eta seuseuna Prĕboe goenoeng, Sangradja pandji." .
+
+aks:Baris145 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Keturunan lagi dari Ratu Maharaja Dewi Angin yaitu Ratu Pagedongan." ;
+    aks:memilikiTransliterasi "Patoetan deui ti ratoe Maradja dĕwi angin nja ratoe Pagĕdongngan." .
+
+aks:Baris146 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ratu Maharaja Dewi Angin putranya Prabu Wiratmaka, Ratu Maharaja Sakti." ;
+    aks:memilikiTransliterasi "Ratoe Maradja dĕwi angin seuweuna Prĕboe Wiratmaka, ratoe Maradja sakti." .
+
+aks:Baris147 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Keturunan dari Ratu Maharaja Dewa Putra ada dua belas yang diceritakan tiga." ;
+    aks:memilikiTransliterasi "Patoetan ti ratoe Maradja dewa poetra raba doewa wĕlas noe njarita tiloe." .
+
+aks:Baris148 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka turun Ratu Komara dari surga membuat negeri di tanjung Cimandala beserta Cigagak Jalu." ;
+    aks:memilikiTransliterasi "Mangka toeroen ratoe Komarra ti swarga ngajoega dajeuh di bodjong Tji-(Man)dala wateun reudjeung Tji-gagak djaloe." .
+
+aks:Baris149 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka sakitlah seluruh negara Galuh." ;
+    aks:memilikiTransliterasi "Mangka gĕrring sa(na)gara Galoeh." .
+
+aks:Baris150 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Sang Ratu: \"Patih, apakah obat sakit seluruh negara?\"" ;
+    aks:memilikiTransliterasi "Saoer Sangratoe: \"patih, nahaeun t(amba) gĕrring sanagara?\"" .
+
+aks:Baris151 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Hamba mohon, Sang Ratu, hamba akan menghadap yang bertapa meminta obat sakit.\"" ;
+    aks:memilikiTransliterasi "\"Kaoela moehoen, sangratoe, ka(oela) rek hatoer ka noe tapa me(n)ta ta(m)ba gĕrring\".\"" .
+
+aks:Baris152 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Menghadap Ki Patih: \"Mohon, hamba diperintah oleh Sang Ratu meminta obat sakit seluruh negara.\"" ;
+    aks:memilikiTransliterasi "Ha(toer) kai patih: \"\"noehoen, kaoela dipiwarang koe (sangra)toe me(n)ta ta(m)ba gĕrring sanagara\"\".\"" .
+
+aks:Baris153 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Baiklah,\" kata yang bertapa." ;
+    aks:memilikiTransliterasi "Saoer noe ta(pa): \"(ra)mpes\"." .
+
+aks:Baris154 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka mengambil obat." ;
+    aks:memilikiTransliterasi "Mangka ngala tamba." .
+
+aks:Baris155 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu disampaikan kepada Ki Patih: \"Ini obat sakit, sampaikan kepada Sang Ratu, kami akan menyusul belakangan.\"" ;
+    aks:memilikiTransliterasi "Toeloej di(hatoer)keun ka kai patih: \"\"ijeu tamba gĕr(ring, hatoer)keun ka sangratoe, kami dek noetoerkeun peu(n)deuri\"\".\"\"" .
+
+aks:Baris156 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Hamba pamit.\"" ;
+    aks:memilikiTransliterasi "\"Kaoela amit\"." .
+
+aks:Baris157 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata yang bertapa: \"Selamat jalan/hati-hati, Ki Patih.\"" ;
+    aks:memilikiTransliterasi "Saoer noe tapa: \"pileuleujan, kai patih\"." .
+
+aks:Baris158 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Hamba mohon, Sang Ratu, ini obat sakit seluruh negara dari yang bertapa.\"" ;
+    aks:memilikiTransliterasi "\"Kaoela noehoen, sangratoe, ijeu tamba gĕrring sanagara ti noe tapa\"." .
+
+aks:Baris159 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu diterima oleh Sang Ratu." ;
+    aks:memilikiTransliterasi "Toeloej ditampanan koe sangratoe." .
+
+aks:Baris160 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian dibuka, tampaklah ramuan/jamu." ;
+    aks:memilikiTransliterasi "Arina diboeka, beh reu(n)deu." .
+
+aks:Baris161 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dimakan oleh Sang Ratu; seketika sembuhlah seluruh negara Galuh." ;
+    aks:memilikiTransliterasi "Toeloej didahar koe sangratoe; njat warras sanagara Galoeh." .
+
+aks:Baris162 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu menghadap lagi oleh para menteri." ;
+    aks:memilikiTransliterasi "Toeloej ka seba deui koe paramantri." .
+
+aks:Baris163 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lama-kelamaan, lalu datanglah Ki Ajar." ;
+    aks:memilikiTransliterasi "Lila-lila, toeloej datang kai adjar." .
+
+aks:Baris164 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Sang Ratu: \"Syukurlah, Ki Ajar, (engkau) datang. Ramuan/jamu bawaan siapa?\"" ;
+    aks:memilikiTransliterasi "Sa(oer) sangratoe: \"soekoer tĕmĕn, kai adjar, datang. Reu(n)deu baän saha?\"" .
+
+aks:Baris165 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Ki Ajar: \"Mohon, bawaan orang yang menghadap, yang menghadap itu orang yang berkelana maka diminta oleh hamba. Lalu ditanam oleh hamba: lama-kelamaan tumbuh, disampaikan kepada Paduka.\"" ;
+    aks:memilikiTransliterasi "Saoer kai adjar: \"noehoen, bawa noe seba oerang noehoen, seba teh noe njaba bae ma(ng)ka ditĕda koe kaoela. (Toe)loej dipĕlakkeun koe kaoela: lawas-lawas ari tjoekoel, kahatoer ka sa(m)pejan\"." .
+
+aks:Baris166 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Ki Ajar, kalau begitu, memberikan sisa.\"" ;
+    aks:memilikiTransliterasi "\"Kai (a)djar, ari kitoe, ngabaktikeun sesa\"." .
+
+aks:Baris167 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka Sang Ratu marah." ;
+    aks:memilikiTransliterasi "Mangka sangra(toe bĕ)ndoe." .
+
+aks:Baris168 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Sang Ratu: \"Patih, bunuh Ki Ajar.\"" ;
+    aks:memilikiTransliterasi "Saoer sangratoe: \"patih, paehhan kai (adjar)\"." .
+
+aks:Baris169 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "(Maka) ditangkap oleh Ki Patih, dibawa ke rawa Cibungur." ;
+    aks:memilikiTransliterasi "(Mangka) ditjĕkĕl koe kai patih, dibaän ka rantja Tji(boengoer)." .
+
+aks:Baris170 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Ki Ajar: \"Ki Patih, sampaikan perkataan kami kepada Sang Ratu, kelak jika punya anak laki-laki lagi, itulah yang (sebenarnya akan) dibunuh.\"" ;
+    aks:memilikiTransliterasi "Saoer ka(i) adjar: \"kai patih, hatoerkeun saoer kami ka sangratoe, djadjaga ari boga deui seuweu lalaki nja eta noe dipaehhan teh\".\"" .
+
+aks:Baris171 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dihabisi/dibunuh." ;
+    aks:memilikiTransliterasi "Toeloej ditĕlassan." .
+
+aks:Baris172 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Menggenang merah darahnya di rawa Cibungur, maka dinamakan Ranca Beureum (Rawa Merah)." ;
+    aks:memilikiTransliterasi "Ngala(m)bang beureum gĕtihna di ra(n)tja Tji-boenggoer, mana dingarankeun Ra(n)tja beureum." .
+
+aks:Baris173 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lama-kelamaan Sang Ratu hamil." ;
+    aks:memilikiTransliterasi "Lawas-lawas sangratoe nga(n)dĕg." .
+
+aks:Baris174 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Tiba bulannya, lahir; kemudian terlihat laki-laki." ;
+    aks:memilikiTransliterasi "Datang ka boelan(n)a, lahir; arina dibireungeuh lalaki." .
+
+aks:Baris175 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka dimasukkan ke dalam peti/kandaga kencana beserta sebutir telur, sebilah keris." ;
+    aks:memilikiTransliterasi "Mangka diasoepkeun kana ka(n)daga kanjtjana reudjeung ĕ(n)dog sahoeloe, doehoeng sapoetjoek." .
+
+aks:Baris176 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dihanyutkan ke Citanduy." ;
+    aks:memilikiTransliterasi "Toeloej dipalidkeun ka Tji-ta(n)doej." .
+
+aks:Baris177 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ceritakan lagi Nini Berangantrang, Aki Berangantrang." ;
+    aks:memilikiTransliterasi "Tjaritakeun deui Nini berangngantrang, Aki berangngantrang." .
+
+aks:Baris178 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Nini, bagus sekali mimpiku, mimpi kejatuhan manik, kebanjiran batu merah delima.\"" ;
+    aks:memilikiTransliterasi "\"Nini, hade tĕmĕn i(m)pijannaing ngi(m)pi kagoe(n)toerran mannik katjaähhan mirah\"." .
+
+aks:Baris179 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Aki, barangkali di perangkap ikan kita mendapat kiriman untuk dijadikan anak.\"" ;
+    aks:memilikiTransliterasi "\"Aki, soegan sa(ä)pan oerang meunang kirim ai pianak-anakkeun\"." .
+
+aks:Baris180 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Besok paginya pergi dilihat, terapung-apung peti kencana menuju ke perangkap ikan." ;
+    aks:memilikiTransliterasi "Isoek-isoek los ditejang, nagĕboer kandaga ka(nj)tjana njorang kana sa(ä)pan." .
+
+aks:Baris181 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dibawa kepada Nininya." ;
+    aks:memilikiTransliterasi "Toeloej dibawa ka Ninina." .
+
+aks:Baris182 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ketika dibuka, tampaklah seorang anak bayi, telur dierami dengan keris." ;
+    aks:memilikiTransliterasi "Ari diboeka, behna moerangkalih, ĕndog disileungleumkeun kĕris." .
+
+aks:Baris183 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu diambil anak bayi itu." ;
+    aks:memilikiTransliterasi "Toeloej diteundeun moerangkalih." .
+
+aks:Baris184 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu diasuh, ditimang-timang." ;
+    aks:memilikiTransliterasi "Toeloej dilorok, dipaningigoerkeun." .
+
+aks:Baris185 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lama-kelamaan sampai pada usia tegap kuat bekerja." ;
+    aks:memilikiTransliterasi "Lawas-lawas datang ka tĕgoeh tjangtjoet." .
+
+aks:Baris186 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka dibawa berjemur oleh ayahnya." ;
+    aks:memilikiTransliterasi "Mangka dibawa mojan koe na kai ajah." .
+
+aks:Baris187 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Bwat (suara) burung ciung." ;
+    aks:memilikiTransliterasi "Bwat tjioeng." .
+
+aks:Baris188 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ayah, apa itu?" ;
+    aks:memilikiTransliterasi "\"Ajah, nahaeun eta?\"" .
+
+aks:Baris189 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Namanya ciung, anakku.\"" ;
+    aks:memilikiTransliterasi "\"Ngaranna tjioeng, anakking\"." .
+
+aks:Baris190 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Bwat (suara) induknya, Bwat (suara) bapaknya, Bwat (suara) anaknya." ;
+    aks:memilikiTransliterasi "Bot indoengna, bwat bapana, bwat anakna." .
+
+aks:Baris191 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Terbanglah bapaknya." ;
+    aks:memilikiTransliterasi "Poer hiber bapana." .
+
+aks:Baris192 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ayah, ke mana itu arahnya?" ;
+    aks:memilikiTransliterasi "\"Ajah, ka mana eta arahna?\"" .
+
+aks:Baris193 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Arahnya ke dalam negeri.\"" ;
+    aks:memilikiTransliterasi "\"Piarahheunan ka daleum dajeuh.\"" .
+
+aks:Baris194 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ah, namaku Ciung Manarah." ;
+    aks:memilikiTransliterasi "Ah, ngaran aing Tjioeng manarah\"\".\"\"" .
+
+aks:Baris195 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Telur lalu dierami." ;
+    aks:memilikiTransliterasi "Ĕ(n)do(g) toeloej disilengleumkeun." .
+
+aks:Baris196 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu menetas, dinamakan Singarat Tarajang." ;
+    aks:memilikiTransliterasi "Toeloej mĕgar, dingarankeun Singarat taradjang." .
+
+aks:Baris197 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka ramai di dalam negeri yang sedang (mengadakan) sabung ayam." ;
+    aks:memilikiTransliterasi "Mangka rame di daleum dajeuh noe keur rak sawoengngan." .
+
+aks:Baris198 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Ayah, aku ingin menyabung ayamku.\"" ;
+    aks:memilikiTransliterasi "\"Ajah, aing ma(h) hajang ngadoekeun hajam aing\"." .
+
+aks:Baris199 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Jangan, anakku, nanti kalah taruhan.\"" ;
+    aks:memilikiTransliterasi "\"Moelah, anakking, bisi eleh marrang\"." .
+
+aks:Baris200 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian anak ayamnya lalu dikepit, lalu kerisnya diselipkan." ;
+    aks:memilikiTransliterasi "Mĕngkĕna moerangkalih hajam toeloej dikelek, doehoeng toeloej disoengkĕlang." .
+
+aks:Baris201 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu berangkat, diikuti oleh ayahnya." ;
+    aks:memilikiTransliterasi "Toeloej angkat, ditoetoerkeun koe na kai ajah." .
+
+aks:Baris202 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Tiba di pagelaran, ia heran melihat orang-orang di pagelaran." ;
+    aks:memilikiTransliterasi "Datang ka pagĕllaran, herran ningali oerang pagĕlarran." .
+
+aks:Baris203 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Terlihat oleh Patih Hariang Bangga, (lalu) disampaikan kepada Sang Ratu." ;
+    aks:memilikiTransliterasi "Katingali koe patih Harijang bangnga kahatoer ka sangratoe." .
+
+aks:Baris204 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dipanggil ke jogan (lantai istana/tempat menghadap)." ;
+    aks:memilikiTransliterasi "Toeloej disaoer ka djogan." .
+
+aks:Baris205 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Sang Ratu: \"Kalau itu, anak siapa?\"" ;
+    aks:memilikiTransliterasi "Saoer sangratoe: \"ari eta, seuweu saha?\"" .
+
+aks:Baris206 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Mohon (ampun), anak hamba.\"" ;
+    aks:memilikiTransliterasi "\"Kaoela noehoen, anak kaoela\"." .
+
+aks:Baris207 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Diminta olehku, Aki Berangantrang, dijadikan (seperti) bawaanmu.\"" ;
+    aks:memilikiTransliterasi "\"Dipoe(n)doet koe ngaing, Aki berangngantrang, diprĕdikakeun sabawa kita\"." .
+
+aks:Baris208 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu pulang Aki Berangantrang sambil menangis, khawatir akan nasib anak (angkat)nya itu." ;
+    aks:memilikiTransliterasi "Toeloej poelang Aki berangangantrang bari nangngis, mĕlang koe na kai seuweu." .
+
+aks:Baris209 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Akan melihat kepada Sang Ratu, melihat lagi kepada Patih Hariang Bangga, lalu melihat kepada dirinya sendiri (?)." ;
+    aks:memilikiTransliterasi "Rek mireungngeuh ka sangratoe, mireungngeuh deui ka patih Harija(ng) bangnga, toeloej mireungeuh ka sarirana di a(n)djeun." .
+
+aks:Baris210 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lama-kelamaan teringat cerita, berkata kepada Sang Ratu: \"Hamba anak Paduka.\"" ;
+    aks:memilikiTransliterasi "Lila-lila eling tjari(ta), hatoer ka sangratoe: \"\"kaoela anak andika\"\".\"" .
+
+aks:Baris211 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Mendengarkan dengan saksama: \"Menarik,\" berkata begitu." ;
+    aks:memilikiTransliterasi "Ngareungeuhheun bangkeureuhheun: \"\"mirĕsĕp\"\", hatoer sakitoe." .
+
+aks:Baris212 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lama-kelamaan lalu teringat, Sang Ratu meminta keris yang terselip (di pinggang Ciung Wanara)." ;
+    aks:memilikiTransliterasi "Lila-lila toeloej eling, sangratoe dipoe(n)doet soengkĕlangna doehoeng." .
+
+aks:Baris213 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian dilihat keris yang terselip itu, tampaklah (gambar/bentuk) Naga Lumenggang." ;
+    aks:memilikiTransliterasi "Arina dibireungeuh soe(ng)kĕlangna doehoeng, beh poen Naga loeme(ng)gang." .
+
+aks:Baris214 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Sang Ratu: \"Benar engkau anakku.\"" ;
+    aks:memilikiTransliterasi "Saoer sangratoe: \"eunja hidap anak ai(ng)\"." .
+
+aks:Baris215 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Disampaikan kepada Nyai Ibunya." ;
+    aks:memilikiTransliterasi "Kahatoer ka njai iboena." .
+
+aks:Baris216 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dirangkul, dipangku, ditangisi." ;
+    aks:memilikiTransliterasi "Toeloej dirawoe, dipangkoe, ditjeungtjeurikan." .
+
+aks:Baris217 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Ciung Manarah: \"Ayah, Ibu, hamba meminta waris?\"" ;
+    aks:memilikiTransliterasi "Saoer Tjioeng manarrah: \"rama, iboe, kaoela nĕda waris?\"" .
+
+aks:Baris218 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Sang Ratu: \"Sudah dihabiskan oleh kakakmu, oleh Patih Hariang Bangga.\"" ;
+    aks:memilikiTransliterasi "Saoer sangratoe: \"ĕnggeus beakkeun koe na kai la(nj)tjeuk, koe patih Hariang bangnga.\"" .
+
+aks:Baris219 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Yang ada hanya tinggal pandai (pengrajin logam) sejumlah domas (800?) kurang satu, itulah warisku untukmu.\"" ;
+    aks:memilikiTransliterasi "\"Aja soteh kari pandaj domas koerang hidji, eta waris aing ka hidap\"." .
+
+aks:Baris220 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dimintalah waris itu." ;
+    aks:memilikiTransliterasi "Toeloej disoehoenkeun waris." .
+
+aks:Baris221 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Sang Ratu lalu didudukkan, disejajarkan dengan kakaknya dan Patih Hariang Bangga, kemudian Patih Ciung Manarah memerintah tiga puluh tiga nusa (pulau/daerah)." ;
+    aks:memilikiTransliterasi "Sangratoe toeloej ditjalikkeun, didjadjarkeun deung na kai la(nj)tjenk deung patih Harijang bangnga ditoeloejkeunna, djĕngan patih Tjioeng manarah mare(n)tahkeun noesa tiloe poeloeh tiloe." .
+
+aks:Baris222 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Masa pemerintahan Ratu Galuh tujuh ribu tahun." ;
+    aks:memilikiTransliterasi "Alamna ratoe Galoeh pitoengewoe tahoen." .
+
+aks:Baris223 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka Patih Ciung Manarah berkehendak menurunkan (memanggil) pandai domas kurang satu, akan membuat rumah besi." ;
+    aks:memilikiTransliterasi "Mangka patih Tjioeng manarah karsa noeroenkeun pa(n)daj domas koerang hidji, rek njieun imah beusi." .
+
+aks:Baris224 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ketika membuat rumah besi." ;
+    aks:memilikiTransliterasi "Ari njieun imah beusi." .
+
+aks:Baris225 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Terlihat oleh Sang Ratu, menyetujuinya." ;
+    aks:memilikiTransliterasi "Kabireungeuh koe sangratoe, panoedjoeëun." .
+
+aks:Baris226 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu disuruh membuat lagi balai besi." ;
+    aks:memilikiTransliterasi "Toeloej dihatoerkeun njieun deui bale beusi." .
+
+aks:Baris227 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Terlihat, (Sang Ratu) menyetujuinya (dan) menyuruh (membuatnya)." ;
+    aks:memilikiTransliterasi "Kabireungeuh, panoedjoeëun dihatoerkeun." .
+
+aks:Baris228 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian membuat lagi penjara besi." ;
+    aks:memilikiTransliterasi "Arina njieun deui ko(n)djara wĕsi." .
+
+aks:Baris229 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian dilihat oleh Sang Ratu, (Sang Ratu) menyetujuinya (dan) menyuruh (membuatnya)." ;
+    aks:memilikiTransliterasi "Arina dibireungeuh koe sangratoe, panoedjoeëun dihatoerkeun." .
+
+aks:Baris230 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berkata Patih Ciung Manarah: \"Tidak tahu tadi dalamnya (seperti apa), Ayah.\"" ;
+    aks:memilikiTransliterasi "Saoerna patih Tjioeng mannarah: \"hanteu njaho tadi djĕrona, ramma\"." .
+
+aks:Baris231 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dimasuki oleh Sang Ratu." ;
+    aks:memilikiTransliterasi "Toeloej dilĕbĕtan koe sangratoe." .
+
+aks:Baris232 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Bagus,\" kata Sang Ratu." ;
+    aks:memilikiTransliterasi "\"Hade\", saoer sangratoe." .
+
+aks:Baris233 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Seketika dikunci oleh Patih Ciung Manarah, dijinjing ke paseban (tempat pertemuan), diumumkan ke seluruh negeri." ;
+    aks:memilikiTransliterasi "Djĕprak dikangtjing koe patih Tjioeng manarah, didjingdjing ka paseban, dioendangkeun ka sadadajeuh." .
+
+aks:Baris234 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Tidak diberi air, tidak diberi nasi, dijaga oleh para anak (prajurit?)." ;
+    aks:memilikiTransliterasi "Teu dibere tjai, teu dibere sangoe, dikĕnmitan koe paraseuweu." .
+
+aks:Baris235 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lama-kelamaan berkata Patih Ciung Manarah: \"Sang Ratu masih gemuk-gemuk saja.\"" ;
+    aks:memilikiTransliterasi "Lawas-lawas saoerna patih Tjioeng manarah: \"sangratoe li(n)toeh-li(n)toeh keneh\"." .
+
+aks:Baris236 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ternyata dilempari nasi kepal oleh Patih Hariang Bangga." ;
+    aks:memilikiTransliterasi "Horengnganan dibalangngan keupeul koe patih Harijang bangnga." .
+
+aks:Baris237 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka marah Patih Ciung Manarah mencabut atap sirap (lalu) dilemparkan ke kakaknya." ;
+    aks:memilikiTransliterasi "Mangka bĕ(n)doe patih Tjioeng manarah mĕsat hateup sirap dibalang kang raka." .
+
+aks:Baris238 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu marahlah kakaknya." ;
+    aks:memilikiTransliterasi "Toeloej bĕ(n)doe kang raka." .
+
+aks:Baris239 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka penjara besi akan dihancurkan/diinjak-injak." ;
+    aks:memilikiTransliterasi "Mangka ko(n)djara wĕsi rek diirik." .
+
+aks:Baris240 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Oleh Patih Ciung Manarah direbut." ;
+    aks:memilikiTransliterasi "Koe patih Tjioeng manarah dirĕboet." .
+
+aks:Baris241 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Oleh Ratu Pagedongan lalu disusupkan/disembunyikan ke Gunung Kelong." ;
+    aks:memilikiTransliterasi "Koe ratoe Pagĕdongngan toeloej disoesoepkeun ka goenoeng Kelong." .
+
+aks:Baris242 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu berangkat, maka terdesaklah ke timur sang kakak." ;
+    aks:memilikiTransliterasi "Toeloej prĕrang, mangka disĕdĕkkeun ngetan ka(ng) raka." .
+
+aks:Baris243 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Tiba di Balangbangan (Blambangan?), berkata sang kakak: \"Adik, kita berhenti.\"" ;
+    aks:memilikiTransliterasi "Datang ka Balangbangngan, saoer kang raka: \"raji, oerang eureun\"." .
+
+aks:Baris244 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Kakak, baiklah.\"" ;
+    aks:memilikiTransliterasi "\"Raka, rampes\"." .
+
+aks:Baris245 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu berhenti di bawah (pohon) maja: tumbuh buahnya ?." ;
+    aks:memilikiTransliterasi "Toeloej eureun teohheun madja: toegna bwah kalajar." .
+
+aks:Baris246 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Diambil oleh sang adik." ;
+    aks:memilikiTransliterasi "Ditja(n)dak koe na kai latjik." .
+
+aks:Baris247 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"ini buah apa?\"" ;
+    aks:memilikiTransliterasi "\"Raji (ij)eu boeah naeun?\"" .
+
+aks:Baris248 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Ini buah maja, Kakak.\"" ;
+    aks:memilikiTransliterasi "\"Ijeu bwah madja, raka\"." .
+
+aks:Baris249 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Enak dimakan?\"" ;
+    aks:memilikiTransliterasi "\"Ngeunah didahar?\"" .
+
+aks:Baris250 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Enak, Kakak.\"" ;
+    aks:memilikiTransliterasi "\"Ngeunah, raka\"." .
+
+aks:Baris251 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian dimakan, (rasanya) pahit." ;
+    aks:memilikiTransliterasi "Arina didahar, pait." .
+
+aks:Baris252 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Majapahit ini akan menjadi nama negara.\"" ;
+    aks:memilikiTransliterasi "\"Madjapait ijeu pingaranneun nagara\"." .
+
+aks:Baris253 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Terdesak lagi ke barat sang adik oleh sang kakak." ;
+    aks:memilikiTransliterasi "Disĕdĕkkeun deui ngoelon kang raji koe kang raka." .
+
+aks:Baris254 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Tiba di Tadjag Barat (?), berkata sang adik: \"Kakak, kita berhenti.\"" ;
+    aks:memilikiTransliterasi "Datang ka Tadjag barat, saoer kang raji: \"raka, oerang eureun\"." .
+
+aks:Baris255 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Adik, baiklah.\"" ;
+    aks:memilikiTransliterasi "\"Raji, rampes\"." .
+
+aks:Baris256 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berhenti di bawah (pohon) paku; tumbuh buahnya." ;
+    aks:memilikiTransliterasi "Eureun teohheun pakoe; toeg bwahna." .
+
+aks:Baris257 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Diambil oleh sang kakak." ;
+    aks:memilikiTransliterasi "Ditja(n)dak koe na kai ais." .
+
+aks:Baris258 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"buah apa ini?\"" ;
+    aks:memilikiTransliterasi "\"Raka, bwah naeun ijeu?\"" .
+
+aks:Baris259 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Buah paku jajar (paku yang berjajar?).\"" ;
+    aks:memilikiTransliterasi "\"Bwah pakoe djadjar\"." .
+
+aks:Baris260 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "\"Pakuan Pajajaran ini (akan menjadi) namanya.\"" ;
+    aks:memilikiTransliterasi "\"Pakwan padjadjarran ijeu ngaran\"." .
+
+aks:Baris261 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka berangkat lagi" ;
+    aks:memilikiTransliterasi "Mangka prĕrang deui." .
+
+aks:Baris262 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Tiba di Taraban, maka turunlah Darma Siksa." ;
+    aks:memilikiTransliterasi "Datang ka Taraban, mangka toeroen Darma siksa." .
+
+aks:Baris263 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "“Hendak pergi ke mana, anakku?” Jangan melanggar pantangan, menuruni gunung sampai menuju laut, tempat daun angsana memutih, di mana sang kakak dipahat dari kayu emas dan dihadapkan ke timur, dan sang raja dipahat dari kayu emas dan dihadapkan ke barat." ;
+    aks:memilikiTransliterasi "\"Nja prĕrang, anakking?\" Tji-pamali nĕroes goenoeng teka noe(n)djang ka sagara halerang godong angsana, na kang raka ditja(n)dak koe kai mas dipangpengkeun ngetan, kang raji ditja(n)dak koe kai mas dipidwahkeun ngoelon." .
+
+aks:Baris264 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu dikumpulkan ke negara Galuh oleh Darma Siksa." ;
+    aks:memilikiTransliterasi "Toeloej dikoe(m)poelkeun ka nagara Galoeh koe Darma siksa." .
+
+aks:Baris265 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kondjara Wesi (nama tempat atau simbol) diberi nama oleh Raja Maraja Sakti, kemudian dihancurkan dan dilebur menjadi air, mengalir ke hilir; tempat itu dinamakan Kandang Wesi." ;
+    aks:memilikiTransliterasi "Ko(n)djarra wĕsi diparanan koe ratoe Maradja sakti, ditjipta toeloej lĕboer djadi tjai, toeroenna ka dajeuh; mana aja Ka(n)dang wĕsi." .
+
+aks:Baris266 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu berkumpul lagi di Kerajaan Galuh, semuanya menghadap kepada orang tuanya untuk meminta izin." ;
+    aks:memilikiTransliterasi "Toeloej koe(m)poel deui ka nagara Galoeh pada marĕk ka rammana nĕda idin." .
+
+aks:Baris267 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lalu berkata sang raja: “Raja tidak boleh menjadi raja dahulu.”" ;
+    aks:memilikiTransliterasi "Mangka matoer kang raji: \"ra(ji) oelah djoemĕnĕng ratoe ti heula\"." .
+
+aks:Baris268 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Jawab sang kakak: “Saya yang ingin jadi raja dulu, karena saya yang tertua, anak pertama. Raja harus mengabdi kepada saya dahulu, tidak boleh naik tahta menjadi Maharaja jika belum berkelana/berpetualang terlebih dahulu.”" ;
+    aks:memilikiTransliterasi "Saoer kang raka: \"soeka aing djadi ratoe ti heula\", da aing k(o)lotna anak poetoe, raji koe aing dikawoelakeun mo djoemĕnĕng njakrawati lamoen teu ngoembarra heula\"." .
+
+aks:Baris269 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Patih Hariang Bangga berkehendak pergi ke timur, membawa pengikutnya satak sawe (jumlah tertentu) menduduki tanah Majapahit." ;
+    aks:memilikiTransliterasi "Patih Harija(ng) bangga karsa moeroed ngetan, maän koeringna satak sawe nitih lĕmah Madjapait." .
+
+aks:Baris270 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Berputra Prabu Mula." ;
+    aks:memilikiTransliterasi "Poepoetra Prĕboe Moela." .
+
+aks:Baris271 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Prabu Mula kemudian berputra Prabu Terus Bawa." ;
+    aks:memilikiTransliterasi "Preboe Moela arina poepoetra Prĕboe Tĕroes bawa." .
+
+aks:Baris272 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Terus Bawa berputra Terus Bagawat." ;
+    aks:memilikiTransliterasi "Tĕroes bawa poepoetra Tĕroes bagawat." .
+
+aks:Baris273 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Terus Bagawat berputra Prabu Terus Gumuling." ;
+    aks:memilikiTransliterasi "Tĕroes bagawat poepoetra Prĕboe Tĕroes goemoeling." .
+
+aks:Baris274 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Prabu Terus Gumuling berputra Prabu Raja Gumuling." ;
+    aks:memilikiTransliterasi "Prĕboe Tĕroes goemoeling poepoetra Prĕboe radja goemoeling." .
+
+aks:Baris275 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Prabu Raja Gumuling berputra Prabu Manguneng." ;
+    aks:memilikiTransliterasi "Prĕboe radja goemoeling poepoetra Prĕboe Mangngonĕng." .
+
+aks:Baris276 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Prabu Manguneng berputra Prabu Terus Bangbang." ;
+    aks:memilikiTransliterasi "Prĕboe Mangngonĕng poepoetra Prĕboe Tĕroes bangbang." .
+
+aks:Baris277 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Terus Bangbang berputra Ki Gedeng Meser." ;
+    aks:memilikiTransliterasi "Tĕroes bangbang poepoetra Ki gĕdeng Mĕssĕr." .
+
+aks:Baris278 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ki Gedeng Meser berputra Ki Gedeng Jati." ;
+    aks:memilikiTransliterasi "Ki gĕdeng Mĕssĕr poepoetra Ki gĕdeng Djati." .
+
+aks:Baris279 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ki Gedeng Jati berputra Ratu Prewata." ;
+    aks:memilikiTransliterasi "Ki gĕdeng Djati poepoetra Ratoe prĕwata." .
+
+aks:Baris280 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ratu Prewata berputra Ki Gedeng Majanah." ;
+    aks:memilikiTransliterasi "Ratoe prĕwata poepoetra Ki gĕdeng Majanah." .
+
+aks:Baris281 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ki Gedeng Majanah berputra seorang istri, dinamakan Ratu Sarikem." ;
+    aks:memilikiTransliterasi "Ki gĕdeng Majanah poepoetra istri, dingarankeun Ratoe Sarikĕm." .
+
+aks:Baris282 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian menikah dengan orang agung dari Baitullah, dinamakan Syekh Kures." ;
+    aks:memilikiTransliterasi "Arina krama ka wong ngagoeng kabatoel(l)ah, dingarankeun seh Koeres." .
+
+aks:Baris283 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Pada waktu senggang, Ratu Padjangga menjajaki (mendekati) dengan maksud menjenguk anak kecil yang suci/bersih sebagai bentuk kasih sayang." ;
+    aks:memilikiTransliterasi "Kasĕlangngan koe ratoe Padjangga manjakit wawatoeneun nejangnga(n) boedak boele pita(m)baeun." .
+
+aks:Baris284 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian Ki Gedé Selang, putrinya dinikahi, untuk mengobati sakitnya." ;
+    aks:memilikiTransliterasi "Nimoe Ki gĕde Selang, poetri dianggo, manjakit warrasna." .
+
+aks:Baris285 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Putri tersebut lalu hamil." ;
+    aks:memilikiTransliterasi "Poetri toeloej bobot." .
+
+aks:Baris286 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian melahirkan Ki Gedeng Kacung." ;
+    aks:memilikiTransliterasi "Arina babar Ki gĕdeng Katjoeng." .
+
+aks:Baris287 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ki Gedeng Kacung kemudian berputra Ki Gedeng Suruwud." ;
+    aks:memilikiTransliterasi "Ki gĕdeng katjoeng arina poepoetra ki gĕdeng Soeroewoed." .
+
+aks:Baris288 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ki Gedeng Suruwud kemudian berputra Pangeran Sedang Karapay, berputra Pangeran Sedang Kajenar." ;
+    aks:memilikiTransliterasi "Ki gĕdeng Soeroewoed arina poepoetra Pangerran Sedang Karapaj, poepoetra Pangeran Sedang Kadjĕnar." .
+
+aks:Baris289 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Pangeran Sedang Kajenar berputra Pangeran Sedang Kamuning." ;
+    aks:memilikiTransliterasi "Pangeran Sedang Kadjĕnar poepoetra Pangeran Sedang Kamoenning." .
+
+aks:Baris290 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Pangeran Sedang Kamuning berputra Sultan." ;
+    aks:memilikiTransliterasi "Pangeran Sedang Kamoening poepoetra Soetan." .
+
+aks:Baris291 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Sultan kemudian berputra Susuhunan." ;
+    aks:memilikiTransliterasi "Soetan arina poepoetra Soesoenan." .
+
+aks:Baris292 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Sultan kemudian berputra Susuhunan Mangkurat." ;
+    aks:memilikiTransliterasi "Soetan arina poepoetra Soesoenan Mangkoerat." .
+
+aks:Baris293 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Susuhunan Mangkurat kemudian menurunkan Pangeran Dipati yang diangkat (diangkat menjadi) oleh Raja Susuhunan Puger, yang merupakan putra dari Pangeran Mangkubumi Negara." ;
+    aks:memilikiTransliterasi "Soesoenan Mangkoerat arina poepoetra Pangeran dipati katapa koe kang raji Soesoenan Poegĕr, poepoetra Pangerran Mangkoe nagara." .
+
+aks:Baris294 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Pangeran Mangkunagara berputra Pangeran Dipati." ;
+    aks:memilikiTransliterasi "Pangerran Ma(ng)koe nagara poepoetra Pangerran dipati." .
+
+aks:Baris295 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Ceritakan lagi Ciung Manarah; berkehendak pergi ke barat." ;
+    aks:memilikiTransliterasi "Tjaritakeun deui Tjioeng manarah; karsa dek moeroed ngoelon." .
+
+aks:Baris296 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Maka membawa pengikutnya pandai domas kurang satu menduduki tanah Pajajaran." ;
+    aks:memilikiTransliterasi "Ma(ng)ka maän koering pa(n)daj domas koerang hidji nitih lĕmah Padjadjarran." .
+
+aks:Baris297 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian menikah dengan Ratu Endang Kancana." ;
+    aks:memilikiTransliterasi "Arina krama ka Ratoe E(n)dang ka(nj)tjana." .
+
+aks:Baris298 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Kemudian berputra Darma Rehe." ;
+    aks:memilikiTransliterasi "Arina poepoetra Darma rehe." .
+
+aks:Baris299 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Darma Rehe kemudian berputra Lutung Kasarung." ;
+    aks:memilikiTransliterasi "Darma rehe arina poepoetra Loetoeng kasaroeng." .
+
+aks:Baris300 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Lutung Kasarung kemudian berputra Prabu Lingga Hyang." ;
+    aks:memilikiTransliterasi "Loetoeng kasaroeng arina poepoetra Prĕboe Lingga hijang." .
+
+aks:Baris301 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Prabu Lingga Hyang berputra Prabu Lingga Wesi." ;
+    aks:memilikiTransliterasi "Prĕboe Lingga hijang poepoetra Prĕboe Lingga wĕsi." .
+
+aks:Baris302 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Prabu Lingga Wesi kemudian berputra Prabu Lingga Wastu." ;
+    aks:memilikiTransliterasi "Prĕboe Lingga wĕsi arina poepoetra Prĕboe Li(ng)ga wastoe." .
+
+aks:Baris303 a aks:Baris ;
+    aks:bagianDari aks:Manuskrip ;
+    aks:memilikiTerjemahan "Prabu Lingga Wastu berputra Sang Susuk Tunggal." ;
+    aks:memilikiTransliterasi "Prĕboe Lingga wastoe poepoetra Sang Soesoek toe(ng)gal." .
+

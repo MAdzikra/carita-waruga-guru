@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pencarian Naskah Carita Waruga Guru</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 min-h-screen flex flex-col">
+
+  <header class="bg-blue-700 text-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4">
+      <h1 class="text-2xl font-bold">Sistem Pencarian Semantik Naskah Sunda Kuno</h1>
+      <p class="text-lg">Carita Waruga Guru</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-8 flex-grow">
+    <section class="mb-10 p-6 bg-white rounded-xl shadow-xl">
+      <h2 class="text-xl font-semibold mb-4 text-blue-700">Cari Naskah</h2>
+      <form id="form-pencarian" class="flex items-center space-x-2">
+        <input type="text" id="input-kata-kunci" placeholder="Contoh: 'guru'" class="flex-grow p-3 border border-gray-300 rounded-lg">
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg">
+          Cari
+        </button>
+      </form>
+    </section>
+
+    <section class="p-6 bg-white rounded-xl shadow-xl">
+      <h2 class="text-xl font-semibold mb-4 text-blue-700">Hasil Pencarian</h2>
+      <div id="hasil-pencarian" class="space-y-4">
+        <p id="pesan-awal" class="text-center text-gray-500 py-10">Hasil pencarian akan muncul di sini.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center py-4 mt-10">
+    <p>&copy; <span id="tahun-sekarang"></span> - Proyek Pencarian Semantik Carita Waruga Guru</p>
+  </footer>
+
+  <script>
+    document.getElementById("tahun-sekarang").textContent = new Date().getFullYear();
+
+    const form = document.getElementById("form-pencarian");
+    const hasilDiv = document.getElementById("hasil-pencarian");
+    const pesanAwal = document.getElementById("pesan-awal");
+
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const keyword = document.getElementById("input-kata-kunci").value.trim();
+      if (!keyword) return alert("Masukkan kata kunci.");
+
+      pesanAwal.classList.add("hidden");
+      hasilDiv.innerHTML = "<p class='text-center text-gray-500'>Mencari...</p>";
+
+      const query = `
+PREFIX aks: <http://aksarasunda.org/ontology#>
+
+SELECT ?baris ?terjemahan ?transliterasi WHERE {
+  GRAPH <http://carita> {
+    ?baris a aks:Baris ;
+           aks:memilikiTerjemahan ?terjemahan ;
+           aks:memilikiTransliterasi ?transliterasi .
+    FILTER (
+      CONTAINS(LCASE(STR(?terjemahan)), LCASE("${keyword}")) ||
+      CONTAINS(LCASE(STR(?transliterasi)), LCASE("${keyword}"))
+    )
+  }
+}
+`;
+
+      try {
+        const response = await fetch("http://localhost:3030/carita/query", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/sparql-query",
+            "Accept": "application/sparql-results+json"
+          },
+          body: query
+        });
+
+        const data = await response.json();
+        const results = data.results.bindings;
+
+        if (results.length === 0) {
+          hasilDiv.innerHTML = "<p class='text-center text-gray-500'>Tidak ada hasil ditemukan.</p>";
+          return;
+        }
+
+        hasilDiv.innerHTML = "";
+        results.forEach(item => {
+          const div = document.createElement("div");
+          div.className = "bg-gray-50 border p-4 rounded shadow";
+          div.innerHTML = `
+            <h3 class="font-semibold text-blue-600 text-lg mb-2">Baris Naskah</h3>
+            <p class="mt-2"><strong class="text-gray-700">Alih Aksara:</strong><br>${item.transliterasi.value}</p>
+            <p class="mt-2"><strong class="text-gray-700">Terjemahan Indonesia:</strong><br>${item.terjemahan.value}</p>
+          `;
+          hasilDiv.appendChild(div);
+        });
+
+      } catch (err) {
+        hasilDiv.innerHTML = "<p class='text-red-600'>Terjadi kesalahan saat mengambil data.</p>";
+        console.error(err);
+      }
+    });
+  </script>
+
+</body>
+</html>

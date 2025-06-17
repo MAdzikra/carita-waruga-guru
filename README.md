@@ -18,10 +18,15 @@ Website yang dikembangkan terhubung langsung ke SPARQL endpoint dari Apache Jena
 
 ```
 carita-waruga-guru/
-│
-├── index.html               <- Antarmuka utama aplikasi web
+├── images/                  <- Asset README.md
+├───└── tampilan_awal.png    
+├───└── tampilan_pencarian.png
+├── public/
+├───└── index.html           <- Antarmuka utama aplikasi web
 ├── ontologi_CWG.ttl         <- File RDF/OWL (ontologi naskah)
+├── package.json             <- Keperluan server
 ├── README.md                <- File dokumentasi ini
+├── server.js                <- Keperluan server
 └── requirements.txt         <- Daftar dependensi eksternal
 ```
 

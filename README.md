@@ -26,8 +26,7 @@ carita-waruga-guru/
 ├── ontologi_CWG.ttl         <- File RDF/OWL (ontologi naskah)
 ├── package.json             <- Keperluan server
 ├── README.md                <- File dokumentasi ini
-├── server.js                <- Keperluan server
-└── requirements.txt         <- Daftar dependensi eksternal
+└── server.js                <- Keperluan server
 ```
 
 ---

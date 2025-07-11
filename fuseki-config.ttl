@@ -1,0 +1,25 @@
+@prefix : <#> .
+@prefix fuseki: <http://jena.apache.org/fuseki#> .
+@prefix tdb2: <http://jena.apache.org/2016/tdb#> .
+@prefix ja: <http://jena.hpl.hp.com/2005/11/Assembler#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Fuseki Server Configuration
+[] rdf:type fuseki:Server ;
+   fuseki:services (
+     <#service1>
+   ) .
+
+# Service configuration for /cwg endpoint
+<#service1> rdf:type fuseki:Service ;
+    fuseki:name "cwg" ;                         # Endpoint URL: /cwg
+    fuseki:serviceQuery "sparql" ;             # Enable SPARQL querying
+    fuseki:serviceUpdate "update" ;            # Enable SPARQL Update
+    fuseki:serviceUpload "upload" ;            # Enable File Upload
+    fuseki:dataset <#dataset> .
+
+# Dataset configuration: Memory-based, load ontologi_CWG.ttl into default graph
+<#dataset> rdf:type ja:MemoryDataset ;
+    ja:defaultGraph [
+        ja:load "ontologi_CWG.ttl"
+    ] .
